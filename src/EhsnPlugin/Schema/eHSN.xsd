@@ -143,6 +143,8 @@
                 <xs:element name="orificePurged" type="xs:string" />
                 <xs:element name="downloadedProgram" type="xs:string" />
                 <xs:element name="downloadedData" type="xs:string" />
+                <xs:element name="harnessAssessment" type="xs:string" />
+                <xs:element name="cablewayAssessment" type="xs:string" />
                 <xs:element name="dataPeriodStart" type="xs:string" />
                 <xs:element name="dataPeriodEnd" type="xs:string" />
                 <xs:element name="stationHealthRemark" type="xs:string" />

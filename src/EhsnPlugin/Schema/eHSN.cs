@@ -43,7 +43,7 @@ public partial class EHSN {
     private EHSNLevelNotes levelNotesField;
     
     private EHSNFieldReview fieldReviewField;
-    
+
     private EHSNMovingBoatMeas movingBoatMeasField;
     
     private EHSNMidsecMeas midsecMeasField;
@@ -151,7 +151,7 @@ public partial class EHSN {
             this.fieldReviewField = value;
         }
     }
-    
+
     /// <remarks/>
     public EHSNMovingBoatMeas MovingBoatMeas {
         get {
@@ -1136,6 +1136,10 @@ public partial class EHSNEnvCond {
     private string downloadedProgramField;
     
     private string downloadedDataField;
+
+    private string harnessAssessmentField;
+
+    private string cablewayAssessmentField;
     
     private string dataPeriodStartField;
     
@@ -1400,6 +1404,26 @@ public partial class EHSNEnvCond {
         }
         set {
             this.downloadedDataField = value;
+        }
+    }
+
+    /// <remarks/>
+    public string harnessAssessment {
+        get {
+            return this.harnessAssessmentField;
+        }
+        set {
+            this.harnessAssessmentField = value;
+        }
+    }
+
+    /// <remarks/>
+    public string cablewayAssessment {
+        get {
+            return this.cablewayAssessmentField;
+        }
+        set {
+            this.cablewayAssessmentField = value;
         }
     }
     
